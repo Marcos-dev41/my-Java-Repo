@@ -13,6 +13,7 @@ public class Packages {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter name: ");
         String name  =  scan.nextLine();
-        
+        scan.close();
+        System.out.println("Enter name: " + name);
     }
 }

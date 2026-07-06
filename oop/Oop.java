@@ -1,4 +1,5 @@
-// class - its a temlate for objects/blueprint
+package oop;
+// class - its a temlate for objects blueprint
 // object - an instance of a class
 /* accessing attributes:
     1. creating an object of the class using the . syntax
@@ -62,7 +63,7 @@ employs use of private attributes and getters and setters to access and modify t
  */
 public class Oop {
     private String name;
-    private int age;
+    // private int age;
 
     // //  chained contstructor
     // public Oop(String name){
