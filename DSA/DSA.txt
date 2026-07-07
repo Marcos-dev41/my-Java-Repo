@@ -1,0 +1,17 @@
+Big O - Describes how an algorithmn runtime (memory) grows as input size grows(time/space complexity)
+
+O(1) -> constant time - doesn't matter how big the input value is the time is constant
+O(n) -> linear time - time grows directly with input size
+O(log n) -> logarithimic time - halves the search space each step eg binary search
+O(nlog n)
+O(n²) -> Quadratic time - nested loopp pver the same input
+O(2∧n)
+O(n!)
+
+Rule of thumb for spotting these fast:
+
+A single loop over the input → O(n)
+A loop inside a loop, both over the same input → O(n²)
+Cutting the problem in half each step (binary search, balanced tree lookup) → O(log n)
+Sorting → O(n log n) for good algorithms (mergesort, quicksort average case)
+Trying every possible combination/subset → exponential, usually a red flag unless input is tiny
