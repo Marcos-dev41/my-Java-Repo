@@ -1,0 +1,30 @@
+they are used to solve pproblems by sorting searching and manipulatinf data structures
+most of the java algorithms are already built into the collections class 
+
+searching
+    collections.binarySearch()...searches in a sorted list
+    first sort the list : collections.sort(names)
+    then perform the search : collections.binarySearch(names,"angie");
+    this retrund the iindex position of the name if found ::
+sorting
+    done using collections.sort() and collectiosn.reverse order 
+    collections.sort(numbers, collections.reverseOrder())
+Iterating
+    achieved using the iterator class 
+     eg Iterator <String> it = names.iterator();
+
+     it.next() print the first element
+     it.hasnext() - returns a boolean    
+     to iterate well through a structure you use a while loop 
+
+    while (it.hasnext()){
+        System.out.println(it.next());
+    }
+
+The Collections class contains many more algorithms, such as:
+the list is passes as the param for all these  in this case names;
+Collections.max(names) - find the largest element
+Collections.min(names) - find the smallest element
+Collections.shuffle(names) - randomly shuffle elements
+Collections.frequency(names,"angie") - count how many times an element appears
+Collections.swap(names , 0,2) - swap two elements in a list
